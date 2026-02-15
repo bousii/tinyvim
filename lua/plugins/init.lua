@@ -22,11 +22,6 @@ return {
     end,
   },
 
-  {
-    "akinsho/bufferline.nvim",
-    opts = require "plugins.configs.bufferline",
-  },
-
   -- we use blink plugin only when in insert mode
   -- so lets lazyload it at InsertEnter event
   {

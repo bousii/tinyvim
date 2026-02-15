@@ -16,6 +16,7 @@ return {
   {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
+    branch = "master",
     config = function()
       require "plugins.configs.treesitter"
     end,

@@ -5,7 +5,7 @@ return {
   { "echasnovski/mini.statusline", opts = {} },
   { "lewis6991/gitsigns.nvim", opts = {} },
 
-  "EdenEast/nightfox.nvim",
+  { "rose-pine/neovim", name = "rose-pine" },
 
   {
     "nvim-tree/nvim-tree.lua",
